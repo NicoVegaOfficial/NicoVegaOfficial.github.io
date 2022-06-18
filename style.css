@@ -21,12 +21,15 @@ a {
 #top {
 	text-align: left;
 }
-.container{
+
+.container {
 	display: flex;
 }
-.contenido{
+
+.contenido {
 	position: relative;
 }
+
 .contenido>.articulo>a {
 	display: block;
 	text-decoration: none;
@@ -65,8 +68,12 @@ a {
 }
 
 .info>img {
-	height: 300px;
-	width: auto;
+	padding: 50px;
+	padding-top: 0;
+	padding-bottom: 0;
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
 	border-radius: 50%;
 }
 
