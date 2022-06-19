@@ -4,11 +4,14 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="style.css">
-	<title>Nicolás Vega - Sitio Oficial</title>
+	<script src="script.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Articulos</title>
 	<link rel="icon" type="image/x-icon" href="img/favicon.ico">
 	<!-- HTML Meta Tags -->
 	<title>Nicolás Vega - Sitio Oficial</title>
 	<meta name="description" content="Nicolás Vega - Sitio Oficial">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<!-- Facebook Meta Tags -->
 	<meta property="og:url" content="https://nicovegaofficial.github.io/">
@@ -25,30 +28,30 @@
 	<meta name="twitter:description" content="Nicolás Vega - Sitio Oficial">
 	<meta name="twitter:image" content="https://nicovegaofficial.github.io/img/foto.jpg">
 
+
 </head>
 
 <body>
-	<div class="menu">
-		<ul>
-			<li>
-				<a href="https://nicovegaofficial.github.io/">Inicio</a>
-			</li>
-			<li>
-				<a href="articulos.html">Articulos</a>
-			</li>
-		</ul>
+	<div class="topnav" id="myTopnav">
+		<a href="https://nicovegaofficial.github.io/">Inicio</a>
+		<a href="articulos.html" class="active">Articulos</a>
+		<a href="javascript:void(0);" class="icon" onclick="abrirMenu()">
+			<i class="fa fa-bars"></i>
+		</a>
 	</div>
 	<div class="container">
-			<div class="contenido">
+		<div class="contenido">
 			<p id="top">Articulos recientes</p>
 			<div class="articulo">
-				<a href="https://github.com/NicoVegaOfficial/PetVet" class="titulo">Software para gestionar
+				<a class="linkArticulo" href="https://github.com/NicoVegaOfficial/PetVet" class="titulo">Software
+					para
+					gestionar
 					veterinarias: PetVet</a>
 				<a href="https://github.com/NicoVegaOfficial/PetVet">
 					<img class="imgArticulo" src="img/screenshot-petvet.png" alt="Captura de pantalla de PetVet">
 				</a>
 				<p class="resumen">Software ideal para gestionar historia clinica de animales</p>
-				
+
 			</div>
 		</div>
 	</div>
