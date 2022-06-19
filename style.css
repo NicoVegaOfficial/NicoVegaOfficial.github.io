@@ -28,6 +28,7 @@ a {
 
 .contenido {
 	position: relative;
+	margin-top: 30px;
 }
 
 .contenido>.articulo>a {
