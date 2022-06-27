@@ -3,7 +3,7 @@
 }
 
 body {
-	background-color: rgb(34, 34, 34);
+	background-color: rgb(25, 25, 25);
 }
 
 * {
@@ -78,6 +78,7 @@ a {
 	padding: 14px 16px;
 	text-decoration: none;
 	font-size: 17px;
+	border-radius: 15%;
 }
 
 .topnav a:hover {
@@ -168,6 +169,7 @@ a {
 		padding: 14px 16px;
 		text-decoration: none;
 		font-size: 17px;
+		border-radius: 0;
 	}
 
 	.topnav>a {
@@ -177,9 +179,8 @@ a {
 	.icon {
 		display: flex;
 		background-color: #00b809;
-		border-radius: 50%;
 	}
-
+	
 	.topnav a.active {
 		background-color: #00b809;
 		color: white;
@@ -187,6 +188,7 @@ a {
 
 	.topnav .icon {
 		display: none;
+		border-radius: 50%;
 	}
 
 	@media screen and (max-width: 600px) {
