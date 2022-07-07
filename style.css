@@ -78,12 +78,14 @@ a {
 	padding: 14px 16px;
 	text-decoration: none;
 	font-size: 17px;
-	border-radius: 15%;
+	border-radius: 8px;
+	transition: background-color 1.5s;
 }
 
 .topnav a:hover {
-	animation-name: itemAnimado;
-	animation-duration: 2s;
+	background: #00b809;
+	transition: background-color 1.5s;
+	
 }
 
 .topnav a.active {
@@ -91,51 +93,19 @@ a {
 }
 
 .topnav a.active:hover {
-	animation-name: itemNoAnimado;
-	animation-duration: 2s;
+	background: #00b809;
+	transition: background-color 1.5s;
+	
 }
 
 .topnav .icon:hover {
-	animation-name: iconNoAnimado;
-	animation-duration: 2s;
+	background: #00b809;
+	transition: background-color 1.5s;
 }
 .topnav .icon {
 	display: none;
 }
 
-@keyframes itemAnimado {
-	0% {
-		background-color: rgba(0, 0, 0, 0);
-	}
-	
-	100% {
-		background-color: #00b809;
-		
-	}
-}
-
-
-@keyframes itemNoAnimado {
-	0% {
-		background-color: #00b809;
-	}
-	
-	100% {
-		background-color: #00b809;
-		
-	}
-}
-
-@keyframes iconNoAnimado {
-	0% {
-		background-color: #00b809;
-	}
-	
-	100% {
-		background-color: #00b809;
-		
-	}
-}
 @media screen and (max-width: 600px) {
 	.info {
 		display: none;
@@ -169,7 +139,6 @@ a {
 		padding: 14px 16px;
 		text-decoration: none;
 		font-size: 17px;
-		border-radius: 0;
 	}
 
 	.topnav>a {
