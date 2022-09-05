@@ -30,7 +30,9 @@ a {
 	position: relative;
 	margin-top: 30px;
 }
-
+.articulo{
+	margin-bottom: 200px;
+}
 .contenido>.articulo>a {
 	display: block;
 	text-decoration: none;
