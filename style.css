@@ -11,6 +11,27 @@ body {
 	font-family: arial;
 }
 
+.home{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.items{
+	border: none;
+	border-radius: 12px;
+	overflow: hidden;
+}
+.img-item{
+	height: 350px;
+	width: auto;
+	border-radius: 12px;
+	margin: 0;
+	transition: transform 0.3s ease;
+}
+.img-item:hover {
+	transform: scale(1.2);
+}
 p,
 h1,
 h2,
